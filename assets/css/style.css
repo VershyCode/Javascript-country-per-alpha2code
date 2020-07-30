@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    text-align: center;
+    background: white;
+    width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 15px 25px 20px black;
+}
+
+.card button {
+    background: rgb(52, 153, 211);
+    border: .5px solid black;
+    color: white;
+    padding: 3px;
+}
+
+.card button:hover {
+    background: rgb(135, 211, 255);
+}
+
+.card button:active {
+    background: rgb(135, 157, 255);
+}
+.card p {
+    color: green;
+}
